@@ -1,0 +1,10 @@
+version: '2'
+services:
+ db:
+  image: postgresql:12
+  ports: 
+  - 5432:5432
+  environment:
+    POSTGRES_USER: postgresql
+    POSTGRES_PASSWORD: 1235
+    POSTGRES_DB: nestjs
